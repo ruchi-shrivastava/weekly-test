@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style> 
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+      body{
+        display: block;
+        /* background-color: aqua; */
+       }
+
+       .main{
+        display: block;
+        }
+
+        .h1{
+            display: block;
+            font-weight: bold;
+            margin-block-start: 0.83em;
+            margin-block-end: 0.83em;
+        }
+        .p{
+            display: block;
+            margin-block-start: 1em;
+             margin-block-end: 1em;
+        }
+        .sale{
+          padding: 6% 10%;
+          color: white;
+          font-size: larger;
+          background-image: url(./images/img1.jpeg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .sale header{
+            width: 70%;
+            background-color: rgba(0,0,0,0.4);
+            padding: 2%;
+        }
+        .offer{
+          background:linear-gradient(to right, #000000, #e74c3c);
+          color: white;
+          padding-block: 10px;
+          text-align: center;
+          }
+          nav{
+            background-color: black;
+            color: white;
+            padding-block: 15px;
+            text-align: center;
+            position: sticky;
+            top:0;
+           }
+           nav > h5{
+            margin-inline: 15px;
+            display: inline-block;
+           }
+           nav > input{
+            width: 30%;
+            font-size: larger;
+            border: none;
+           }
+          /* .header{
+            background-image: url(./images/img1.jpeg);
+            padding: 6% 10%;
+            width: 100%;
+            height: 400px;
+            font-size: larger;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          } */
+          .selection{
+           padding: 1% 5%; 
+           background-color: rgba(0,0,0,0.1);
+           
+          }
+          .category{
+            padding: 1%;
+            color: rgba(0,0,0,0.7);
+            background-color: rgba(0,0,0,0.3);
+            margin-block: 10px;
+           
+          }
+          .tr{
+            height: 150px;
+            width: 120px;
+            display: inline-block;
+            background-color: rgba(0,0,0,0.4);
+            color: white;
+            padding: 0.1%;
+          }
+          .tr img{
+            height: 80%;
+            width: 100%;
+          }
+
+          .footer{
+            background: linear-gradient(to left, #000000, #434343);
+          }
+          .container{
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            overflow: hidden;
+          }
+          /* .des img{
+            width:100%;
+            height: 80%;
+            overflow-clip-margin: content-box;
+            overflow: clip;
+          } */
+          .des{
+            max-width: 40%;
+            color: white;
+          }
+          .des p{
+            font-size: large;
+            margin-bottom: 50px;
+            line-height: 20px;
+          }
+          .des h1{
+            font-size: xx-large;
+            margin-bottom: 30px;
+          }
+          .shoe{
+            width: 85%;
+            height: 75%;
+            padding: 2%;
+            margin: auto;
+            margin-top: 7.5%;
+            box-shadow:0px 0px 10px gray ;
+          }
+          .shoe-1{
+            position: absolute;
+            right:10%;
+            top:20%;
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            box-shadow: 8px 8px 8px white;
+          }
+          .shoe-1:hover{
+            right:15%;
+            top:25%;
+            width: 400px;
+            height: 400px;
+          }
+          img{
+            overflow-clip-margin: content-box;
+            overflow: clip;
+          }
+      
+    </Style>
+</head>
+<body oncontextmenu="return false;">
+    <div class="offer">
+        <h4>Free Shipping for all order now</h4>
+    </div>
+    <nav>
+        <h5>Men</h5>
+        <h5>Women</h5>
+        <h5>Kids</h5>
+        <h5>Sports</h5>
+        <h5>Brands</h5>
+        <h5>Collection</h5>
+        <input type="text">
+        <span>&#128269</span>
+    </nav>
+    <main>
+        <section class="sale">
+           <header>
+            <h1>SHOES, CLOTHING & ACCESSORIES SALE:UPTO 60% OFF</h1>
+            <P>Remake your look for less. Whether you're an avid athlete or seeking a fresh streetwear vibe, you'll find the best gear at the adidas clothing and shoes sale. Save up to 60% off iconic adidas styles like NMD, Stan Smith, and Originals.</P>
+        </header>
+    </section>
+   
+    <section class="selection">
+      
+        <div class="category">
+            <h2>Trending</h2>
+            
+            <div class="tr">
+                <img src="./images/img-2.jpeg" alt="shoe1">
+                <p>Air Jorden 7</p>
+            </div>
+            <div class="tr">
+                <img src="./images/img-3.jpeg" alt="shoe2">
+                <p>Air Jorden 3</p>
+            </div>
+            <div class="tr">
+                <img src="./images/img-4.jpeg" alt="shoe3">
+                <p>Air Jorden 1</p>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="shoe" style="background: linear-gradient(to right, #000000,#e74c3c)">
+            <div class="des">
+            <h2>How did Air Jordan start?</h2>
+            <p>"The first Air Jordan shoe was produced for basketball player Michael Jordan during his time with the Chicago Bulls in late 1984 and released to the public on April 1, 1985. The shoes were designed for Nike by Peter Moore, Tinker Hatfield, and Bruce Kilgore. "</p>
+           <p>"Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, dolore. "</p>
+                
+            <p>" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque quo harum ea? Ab vel delectus labore voluptatem est architecto accusantium doloremque dolores quia quasi adipisci, veritatis velit voluptatum cupiditate id. "</p>
+            </div>
+            <img class="shoe-1" src="./images/img-5.jpeg" alt="shoe-baner">
+           </div>
+        </div>
+    </section>
+    </main>
+</body>
+</html>
